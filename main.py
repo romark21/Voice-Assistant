@@ -12,7 +12,7 @@ load_dotenv()
 
 def main():
     # Параметры
-    vosk_model_path = "vosk_model"
+    vosk_model_path = "models/vosk_model"
 
     # Создаем распознаватель речи
     recognizer = SpeechRecognizer(vosk_model_path)
